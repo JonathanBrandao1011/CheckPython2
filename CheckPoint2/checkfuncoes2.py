@@ -23,6 +23,7 @@ def buscar(info):
         dicio = info.get(busca)
         print("\nEmail =>", dicio[0])
         print("Senha =>", dicio[1])
+        input('\nPressione ENTER para voltar ao menu')
 
 def alterar(info):
     while True:
